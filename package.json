@@ -1,6 +1,10 @@
 {
   "name": "readability-api",
   "version": "0.0.1",
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/Velan/readability.git"
+  },
   "dependencies": {
     "fermata": "~0.9.6",
     "oauth": "~0.9.10"
