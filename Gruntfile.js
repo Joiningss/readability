@@ -19,6 +19,15 @@ module.exports = function (grunt) {
       ]
     },
 
+    jsdoc : {
+      dist : {
+        src: ['lib/*.js', 'test/*.js'],
+        options: {
+          destination: 'doc'
+        }
+      }
+    },
+
     mochacli: {
       options: {
         require: [ 'should' ],
@@ -30,6 +39,7 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.registerTask( 'default', [ 'test'] );
-  grunt.registerTask( 'test', [ 'jshint', 'mochacli'] );
+  grunt.registerTask( 'default', [ 'test' ] );
+  grunt.registerTask( 'test', [ 'jshint', 'mochacli' ] );
+  grunt.registerTask( 'doc', [ 'jsdoc' ] );
 };

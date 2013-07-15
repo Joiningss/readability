@@ -1,7 +1,7 @@
 {
   "name": "readability-api",
   "version": "0.0.1",
-  "respository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/Velan/readability.git"
   },
@@ -15,7 +15,8 @@
     "grunt-mocha-cli": "~1.0.6",
     "grunt-release": "~0.3.5",
     "grunt-contrib-jshint": "~0.6.0",
-    "should": "~1.2.2"
+    "should": "~1.2.2",
+    "grunt-jsdoc": "~0.4.0"
   },
   "engines": {
     "node": ">=0.8.0"

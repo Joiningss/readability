@@ -1,2 +1,2 @@
 
-moudle.exports = require( './lib/readability' );
+module.exports = require( './lib/readability' );

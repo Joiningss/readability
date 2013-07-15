@@ -4,7 +4,7 @@
 'use strict';
 
 var should = require( 'should' ),
-  Readability = require( '../lib/readability' );
+  Readability = require( '../index' );
 
 
 describe( 'Redability instance', function() {
